@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essential Guide to Home Interior Designs - Infographic Poster</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        heading: ['Cinzel', 'serif'],
+                        body: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brandTeal: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                        },
+                        goldAccent: '#d4af37',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Smooth Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(15, 118, 110, 0.05);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(15, 118, 110, 0.4);
+            border-radius: 999px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(15, 118, 110, 0.8);
+        }
+
+        /* Poster Frame Visual Depth */
+        .poster-frame {
+            box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.35), 0 0 30px rgba(15, 118, 110, 0.15);
+        }
+
+        /* Metallic Gold Gradient Effects */
+        .gold-ribbon {
+            background: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%);
+        }
+
+        .gold-text {
+            background: linear-gradient(135deg, #bf953f 0%, #fcf6ba 30%, #b38728 70%, #aa771c 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Pulsing Interactive Room Hotspots */
+        @keyframes pulse-ring {
+            0% { transform: scale(0.95); opacity: 0.85; }
+            50% { transform: scale(1.35); opacity: 0.35; }
+            100% { transform: scale(0.95); opacity: 0.85; }
+        }
+        .hotspot-ring {
+            animation: pulse-ring 2s infinite ease-in-out;
+        }
+
+        /* Subtle Card Lift Effect */
+        .card-hover {
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px -4px rgba(15, 118, 110, 0.12);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 font-body text-slate-800 min-h-screen flex items-center justify-center p-2 sm:p-6">
+
+    <!-- MAIN 9:16 ASPECT RATIO POSTER CONTAINER -->
+    <main class="poster-frame w-full max-w-[500px] aspect-[9/16] bg-[#f8faf8] border-8 border-slate-900 rounded-3xl overflow-y-auto relative flex flex-col justify-between select-none">
+        
+        <div class="p-3 sm:p-5 flex flex-col gap-4 min-h-full bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:16px_16px]">
+            
+            <!-- 1. MAIN HEADER BANNER (STARTS IMMEDIATELY AT TOP) -->
+            <header class="text-center relative pt-1">
+                <!-- Top Decorative Gold Banner Ribbon -->
+                <div class="inline-flex items-center gap-2 gold-ribbon text-slate-950 text-[10px] sm:text-xs font-black uppercase tracking-widest px-4 py-1 rounded-full shadow-md border border-amber-300/50 mb-2">
+                    <i class="fa-solid fa-star text-slate-900 text-[9px]"></i>
+                    <span>Essential Guide To</span>
+                    <i class="fa-solid fa-star text-slate-900 text-[9px]"></i>
+                </div>
+
+                <!-- Title Container -->
+                <div class="relative bg-gradient-to-br from-slate-900 via-brandTeal-900 to-slate-900 rounded-2xl p-4 shadow-xl border-2 border-amber-400/40 text-center overflow-hidden">
+                    <div class="absolute -right-6 -top-6 w-20 h-20 bg-amber-400/10 rounded-full blur-xl"></div>
+                    <div class="absolute -left-6 -bottom-6 w-20 h-20 bg-brandTeal-600/20 rounded-full blur-xl"></div>
+                    
+                    <h1 class="font-heading text-2xl sm:text-3xl font-extrabold text-white tracking-wider uppercase leading-tight">
+                        Home Interior <br>
+                        <span class="gold-text drop-shadow-md">Designs</span>
+                    </h1>
+                    
+                    <div class="flex items-center justify-center gap-2 mt-2">
+                        <span class="h-[1px] w-12 bg-amber-400/60"></span>
+                        <span class="text-[9px] uppercase tracking-widest text-emerald-200 font-bold">2027 Style & Space Architecture</span>
+                        <span class="h-[1px] w-12 bg-amber-400/60"></span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- 2. SECTION 1: KEY ELEMENTS -->
+            <section class="bg-white p-3.5 rounded-2xl shadow-sm border border-slate-200/80">
+                <div class="flex items-center justify-between mb-2.5 border-b border-slate-100 pb-2">
+                    <div class="flex items-center gap-2">
+                        <span class="w-6 h-6 rounded-full bg-brandTeal-700 text-white font-black text-xs flex items-center justify-center shadow-sm">1</span>
+                        <h2 class="font-heading text-xs sm:text-sm font-bold uppercase text-slate-900 tracking-wide">Key Elements</h2>
+                    </div>
+                    <span class="text-[9px] text-slate-400 font-medium"><i class="fa-solid fa-arrow-up-right-from-square text-brandTeal-600"></i> Direct Links</span>
+                </div>
+
+                <!-- 3 Columns Grid -->
+                <div class="grid grid-cols-3 gap-2">
+                    
+                    <!-- Furniture Column -->
+                    <div class="space-y-2">
+                        <h3 class="text-[10px] font-black text-slate-400 uppercase text-center tracking-wider">Furniture</h3>
+                        
+                        <a href="https://www.westelm.com/shop/furniture/sofas-sectionals/" target="_blank" rel="noopener noreferrer" class="card-hover block bg-slate-50 hover:bg-brandTeal-50 p-2 rounded-xl border border-slate-200/80 text-center group">
+                            <i class="fa-solid fa-couch text-lg text-brandTeal-700 group-hover:scale-110 transition-transform"></i>
+                            <p class="text-[10px] font-bold text-slate-800 mt-0.5">Modern Sofa</p>
+                            <span class="text-[8px] text-brandTeal-700 font-semibold flex items-center justify-center gap-0.5 mt-0.5">West Elm <i class="fa-solid fa-arrow-up-right-from-square text-[7px]"></i></span>
+                        </a>
+
+                        <a href="https://www.article.com/browse/12/chairs-accent-chairs" target="_blank" rel="noopener noreferrer" class="card-hover block bg-slate-50 hover:bg-brandTeal-50 p-2 rounded-xl border border-slate-200/80 text-center group">
+                            <i class="fa-solid fa-chair text-lg text-brandTeal-700 group-hover:scale-110 transition-transform"></i>
+                            <p class="text-[10px] font-bold text-slate-800 mt-0.5">Accent Chair</p>
+                            <span class="text-[8px] text-brandTeal-700 font-semibold flex items-center justify-center gap-0.5 mt-0.5">Article <i class="fa-solid fa-arrow-up-right-from-square text-[7px]"></i></span>
+                        </a>
+
+                        <a href="https://www.cb2.com/furniture/coffee-tables/1" target="_blank" rel="noopener noreferrer" class="card-hover block bg-slate-50 hover:bg-brandTeal-50 p-2 rounded-xl border border-slate-200/80 text-center group">
+                            <i class="fa-solid fa-table text-lg text-brandTeal-700 group-hover:scale-110 transition-transform"></i>
+                            <p class="text-[10px] font-bold text-slate-800 mt-0.5">Coffee Table</p>
+                            <span class="text-[8px] text-brandTeal-700 font-semibold flex items-center justify-center gap-0.5 mt-0.5">CB2 <i class="fa-solid fa-arrow-up-right-from-square text-[7px]"></i></span>
+                        </a>
+                    </div>
+
+                    <!-- Lighting Column -->
+                    <div class="space-y-2 border-x border-slate-100 px-1">
+                        <h3 class="text-[10px] font-black text-slate-400 uppercase text-center tracking-wider">Lighting</h3>
+                        
+                        <a href="https://www.lumens.com/pendant-lighting/" target="_blank" rel="noopener noreferrer" class="card-hover block bg-slate-50 hover:bg-amber-50 p-2 rounded-xl border border-slate-200/80 text-center group">
+                            <i class="fa-solid fa-lightbulb text-lg text-amber-500 group-hover:scale-110 transition-transform"></i>
+                            <p class="text-[10px] font-bold text-slate-800 mt-0.5">Pendant</p>
+                            <span class="text-[8px] text-amber-700 font-semibold flex items-center justify-center gap-0.5 mt-0.5">Lumens <i class="fa-solid fa-arrow-up-right-from-square text-[7px]"></i></span>
+                        </a>
+
+                        <a href="https://www.ikea.com/us/en/cat/floor-lamps-10731/" target="_blank" rel="noopener noreferrer" class="card-hover block bg-slate-50 hover:bg-amber-50 p-2 rounded-xl border border-slate-200/80 text-center group">
+                            <i class="fa-solid fa-lamp-floor text-lg text-amber-500 group-hover:scale-110 transition-transform"></i>
+                            <p class="text-[10px] font-bold text-slate-800 mt-0.5">Floor Lamp</p>
+                            <span class="text-[8px] text-amber-700 font-semibold flex items-center justify-center gap-0.5 mt-0.5">IKEA <i class="fa-solid fa-arrow-up-right-from-square text-[7px]"></i></span>
+                        </a>
+
+                        <a href="https://www.architecturaldigest.com/story/how-to-get-more-natural-light-in-your-home" target="_blank" rel="noopener noreferrer" class="card-hover block bg-slate-50 hover:bg-amber-50 p-2 rounded-xl border border-slate-200/80 text-center group">
+                            <i class="fa-solid fa-sun text-lg text-amber-500 group-hover:scale-110 transition-transform"></i>
+                            <p class="text-[10px] font-bold text-slate-800 mt-0.5">Daylight</p>
+                            <span class="text-[8px] text-amber-700 font-semibold flex items-center justify-center gap-0.5 mt-0.5">AD Guide <i class="fa-solid fa-arrow-up-right-from-square text-[7px]"></i></span>
+                        </a>
+                    </div>
+
+                    <!-- Decor Column -->
+                    <div class="space-y-2">
+                        <h3 class="text-[10px] font-black text-slate-400 uppercase text-center tracking-wider">Decor</h3>
+                        
+                        <a href="https://www.thespruce.com/best-houseplants-4153833" target="_blank" rel="noopener noreferrer" class="card-hover block bg-slate-50 hover:bg-emerald-50 p-2 rounded-xl border border-slate-200/80 text-center group">
+                            <i class="fa-solid fa-plant-wilt text-lg text-emerald-600 group-hover:scale-110 transition-transform"></i>
+                            <p class="text-[10px] font-bold text-slate-800 mt-0.5">Plants</p>
+                            <span class="text-[8px] text-emerald-700 font-semibold flex items-center justify-center gap-0.5 mt-0.5">Spruce <i class="fa-solid fa-arrow-up-right-from-square text-[7px]"></i></span>
+                        </a>
+
+                        <a href="https://www.art.com/" target="_blank" rel="noopener noreferrer" class="card-hover block bg-slate-50 hover:bg-emerald-50 p-2 rounded-xl border border-slate-200/80 text-center group">
+                            <i class="fa-solid fa-image text-lg text-emerald-600 group-hover:scale-110 transition-transform"></i>
+                            <p class="text-[10px] font-bold text-slate-800 mt-0.5">Artwork</p>
+                            <span class="text-[8px] text-emerald-700 font-semibold flex items-center justify-center gap-0.5 mt-0.5">Art.com <i class="fa-solid fa-arrow-up-right-from-square text-[7px]"></i></span>
+                        </a>
+
+                        <a href="https://www.ruggable.com/" target="_blank" rel="noopener noreferrer" class="card-hover block bg-slate-50 hover:bg-emerald-50 p-2 rounded-xl border border-slate-200/80 text-center group">
+                            <i class="fa-solid fa-rug text-lg text-emerald-600 group-hover:scale-110 transition-transform"></i>
+                            <p class="text-[10px] font-bold text-slate-800 mt-0.5">Layered Rugs</p>
+                            <span class="text-[8px] text-emerald-700 font-semibold flex items-center justify-center gap-0.5 mt-0.5">Ruggable <i class="fa-solid fa-arrow-up-right-from-square text-[7px]"></i></span>
+                        </a>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- 3. SECTION 2: DESIGN STYLES -->
+            <section class="bg-white p-3.5 rounded-2xl shadow-sm border border-slate-200/80">
+                <div class="flex items-center justify-between mb-2.5 border-b border-slate-100 pb-2">
+                    <div class="flex items-center gap-2">
+                        <span class="w-6 h-6 rounded-full bg-brandTeal-700 text-white font-black text-xs flex items-center justify-center shadow-sm">2</span>
+                        <h2 class="font-heading text-xs sm:text-sm font-bold uppercase text-slate-900 tracking-wide">Design Styles</h2>
+                    </div>
+                    <span class="text-[9px] text-slate-400 font-medium">Explore Aesthetics</span>
+                </div>
+
+                <div class="space-y-2">
+                    
+                    <!-- Modern -->
+                    <div class="card-hover bg-slate-50 p-2.5 rounded-xl border border-slate-200/70 flex items-center justify-between gap-2">
+                        <div class="flex items-center gap-2.5">
+                            <div class="w-9 h-9 rounded-lg bg-brandTeal-100 text-brandTeal-800 flex items-center justify-center font-bold text-base shrink-0">
+                                <i class="fa-solid fa-vector-square"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xs font-extrabold text-slate-900">MODERN</h3>
+                                <p class="text-[9px] text-slate-500">Sleek lines, neutral palette, minimal clutter</p>
+                            </div>
+                        </div>
+                        <a href="https://www.houzz.com/photos/modern-interior-design-ideas-phbr0-bp~s_2105" target="_blank" rel="noopener noreferrer" class="text-[9px] bg-slate-900 hover:bg-brandTeal-800 text-white font-bold px-2.5 py-1.5 rounded-lg transition flex items-center gap-1 shrink-0">
+                            <span>Guide</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[8px]"></i>
+                        </a>
+                    </div>
+
+                    <!-- Scandinavian -->
+                    <div class="card-hover bg-slate-50 p-2.5 rounded-xl border border-slate-200/70 flex items-center justify-between gap-2">
+                        <div class="flex items-center gap-2.5">
+                            <div class="w-9 h-9 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center font-bold text-base shrink-0">
+                                <i class="fa-solid fa-tree"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xs font-extrabold text-slate-900">SCANDINAVIAN</h3>
+                                <p class="text-[9px] text-slate-500">Minimalist, light wood, cozy hygge warmth</p>
+                            </div>
+                        </div>
+                        <a href="https://www.architecturaldigest.com/story/scandinavian-design-everything-you-need-to-know" target="_blank" rel="noopener noreferrer" class="text-[9px] bg-slate-900 hover:bg-brandTeal-800 text-white font-bold px-2.5 py-1.5 rounded-lg transition flex items-center gap-1 shrink-0">
+                            <span>Guide</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[8px]"></i>
+                        </a>
+                    </div>
+
+                    <!-- Industrial -->
+                    <div class="card-hover bg-slate-50 p-2.5 rounded-xl border border-slate-200/70 flex items-center justify-between gap-2">
+                        <div class="flex items-center gap-2.5">
+                            <div class="w-9 h-9 rounded-lg bg-stone-200 text-stone-800 flex items-center justify-center font-bold text-base shrink-0">
+                                <i class="fa-solid fa-building-user"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xs font-extrabold text-slate-900">INDUSTRIAL</h3>
+                                <p class="text-[9px] text-slate-500">Exposed bricks, metal fixtures, raw wood</p>
+                            </div>
+                        </div>
+                        <a href="https://www.pinterest.com/search/pins/?q=industrial%20interior%20design" target="_blank" rel="noopener noreferrer" class="text-[9px] bg-slate-900 hover:bg-brandTeal-800 text-white font-bold px-2.5 py-1.5 rounded-lg transition flex items-center gap-1 shrink-0">
+                            <span>Guide</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[8px]"></i>
+                        </a>
+                    </div>
+
+                    <!-- Traditional -->
+                    <div class="card-hover bg-slate-50 p-2.5 rounded-xl border border-slate-200/70 flex items-center justify-between gap-2">
+                        <div class="flex items-center gap-2.5">
+                            <div class="w-9 h-9 rounded-lg bg-rose-100 text-rose-800 flex items-center justify-center font-bold text-base shrink-0">
+                                <i class="fa-solid fa-gem"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xs font-extrabold text-slate-900">TRADITIONAL</h3>
+                                <p class="text-[9px] text-slate-500">Classic elegance, rich wood, ornamentations</p>
+                            </div>
+                        </div>
+                        <a href="https://www.traditionalhome.com/" target="_blank" rel="noopener noreferrer" class="text-[9px] bg-slate-900 hover:bg-brandTeal-800 text-white font-bold px-2.5 py-1.5 rounded-lg transition flex items-center gap-1 shrink-0">
+                            <span>Guide</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[8px]"></i>
+                        </a>
+                    </div>
+
+                    <!-- Minimalist -->
+                    <div class="card-hover bg-slate-50 p-2.5 rounded-xl border border-slate-200/70 flex items-center justify-between gap-2">
+                        <div class="flex items-center gap-2.5">
+                            <div class="w-9 h-9 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-base shrink-0">
+                                <i class="fa-solid fa-border-all"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xs font-extrabold text-slate-900">MINIMALIST</h3>
+                                <p class="text-[9px] text-slate-500">Less is more, clean functional spaces</p>
+                            </div>
+                        </div>
+                        <a href="https://www.elledecor.com/design-decorate/room-ideas/g3182/minimalist-living-rooms/" target="_blank" rel="noopener noreferrer" class="text-[9px] bg-slate-900 hover:bg-brandTeal-800 text-white font-bold px-2.5 py-1.5 rounded-lg transition flex items-center gap-1 shrink-0">
+                            <span>Guide</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[8px]"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- 4. SECTION 3: COLOR PALETTES -->
+            <section class="bg-white p-3.5 rounded-2xl shadow-sm border border-slate-200/80">
+                <div class="flex items-center justify-between mb-2 border-b border-slate-100 pb-2">
+                    <div class="flex items-center gap-2">
+                        <span class="w-6 h-6 rounded-full bg-brandTeal-700 text-white font-black text-xs flex items-center justify-center shadow-sm">3</span>
+                        <h2 class="font-heading text-xs sm:text-sm font-bold uppercase text-slate-900 tracking-wide">Color Palettes</h2>
+                    </div>
+                    <a href="https://www.sherwin-williams.com/en-us/color" target="_blank" rel="noopener noreferrer" class="text-[9px] text-brandTeal-700 font-bold hover:underline flex items-center gap-1">
+                        Paint Guides <i class="fa-solid fa-arrow-up-right-from-square text-[8px]"></i>
+                    </a>
+                </div>
+
+                <p class="text-[9px] text-slate-400 mb-2">Click color swatches to copy exact HEX code:</p>
+
+                <div class="grid grid-cols-2 gap-2">
+                    
+                    <!-- Palette 1 -->
+                    <div class="bg-slate-50 p-2 rounded-xl border border-slate-200/70">
+                        <div class="flex items-center justify-between mb-1.5">
+                            <span class="text-[10px] font-bold text-slate-800">Neutral Harmony</span>
+                            <a href="https://www.benjaminmoore.com/en-us/color-overview/color-palettes/neutral-paint-colors" target="_blank" rel="noopener noreferrer" class="text-[8px] text-brandTeal-700 hover:underline"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                        <div class="grid grid-cols-4 gap-1 h-7">
+                            <button onclick="copyHex('#F5F2EB')" style="background-color: #F5F2EB;" class="rounded hover:scale-105 transition border border-slate-300" title="Copy #F5F2EB"></button>
+                            <button onclick="copyHex('#E1D8C9')" style="background-color: #E1D8C9;" class="rounded hover:scale-105 transition" title="Copy #E1D8C9"></button>
+                            <button onclick="copyHex('#B8A99A')" style="background-color: #B8A99A;" class="rounded hover:scale-105 transition" title="Copy #B8A99A"></button>
+                            <button onclick="copyHex('#786858')" style="background-color: #786858;" class="rounded hover:scale-105 transition" title="Copy #786858"></button>
+                        </div>
+                    </div>
+
+                    <!-- Palette 2 -->
+                    <div class="bg-slate-50 p-2 rounded-xl border border-slate-200/70">
+                        <div class="flex items-center justify-between mb-1.5">
+                            <span class="text-[10px] font-bold text-slate-800">Bohemian Chic</span>
+                            <a href="https://www.sherwin-williams.com/en-us/color/color-families/warm-neutral-paint-colors" target="_blank" rel="noopener noreferrer" class="text-[8px] text-brandTeal-700 hover:underline"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                        <div class="grid grid-cols-4 gap-1 h-7">
+                            <button onclick="copyHex('#E3A857')" style="background-color: #E3A857;" class="rounded hover:scale-105 transition" title="Copy #E3A857"></button>
+                            <button onclick="copyHex('#C26D38')" style="background-color: #C26D38;" class="rounded hover:scale-105 transition" title="Copy #C26D38"></button>
+                            <button onclick="copyHex('#8C5230')" style="background-color: #8C5230;" class="rounded hover:scale-105 transition" title="Copy #8C5230"></button>
+                            <button onclick="copyHex('#4A3222')" style="background-color: #4A3222;" class="rounded hover:scale-105 transition" title="Copy #4A3222"></button>
+                        </div>
+                    </div>
+
+                    <!-- Palette 3 -->
+                    <div class="bg-slate-50 p-2 rounded-xl border border-slate-200/70">
+                        <div class="flex items-center justify-between mb-1.5">
+                            <span class="text-[10px] font-bold text-slate-800">Oceanic Blues</span>
+                            <a href="https://www.behr.com/consumer/colors/paint/color-family/blue" target="_blank" rel="noopener noreferrer" class="text-[8px] text-brandTeal-700 hover:underline"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                        <div class="grid grid-cols-4 gap-1 h-7">
+                            <button onclick="copyHex('#E0F2FE')" style="background-color: #E0F2FE;" class="rounded hover:scale-105 transition border border-slate-300" title="Copy #E0F2FE"></button>
+                            <button onclick="copyHex('#38BDF8')" style="background-color: #38BDF8;" class="rounded hover:scale-105 transition" title="Copy #38BDF8"></button>
+                            <button onclick="copyHex('#0284C7')" style="background-color: #0284C7;" class="rounded hover:scale-105 transition" title="Copy #0284C7"></button>
+                            <button onclick="copyHex('#0F172A')" style="background-color: #0F172A;" class="rounded hover:scale-105 transition" title="Copy #0F172A"></button>
+                        </div>
+                    </div>
+
+                    <!-- Palette 4 -->
+                    <div class="bg-slate-50 p-2 rounded-xl border border-slate-200/70">
+                        <div class="flex items-center justify-between mb-1.5">
+                            <span class="text-[10px] font-bold text-slate-800">Earth Tones</span>
+                            <a href="https://www.farrow-ball.com/paint/green-paint" target="_blank" rel="noopener noreferrer" class="text-[8px] text-brandTeal-700 hover:underline"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                        <div class="grid grid-cols-4 gap-1 h-7">
+                            <button onclick="copyHex('#E2ECE9')" style="background-color: #E2ECE9;" class="rounded hover:scale-105 transition border border-slate-300" title="Copy #E2ECE9"></button>
+                            <button onclick="copyHex('#688F7C')" style="background-color: #688F7C;" class="rounded hover:scale-105 transition" title="Copy #688F7C"></button>
+                            <button onclick="copyHex('#3B5A4B')" style="background-color: #3B5A4B;" class="rounded hover:scale-105 transition" title="Copy #3B5A4B"></button>
+                            <button onclick="copyHex('#23382D')" style="background-color: #23382D;" class="rounded hover:scale-105 transition" title="Copy #23382D"></button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- 5. SECTION 4: ROOM IDEAS & INTERACTIVE HOTSPOTS -->
+            <section class="bg-white p-3.5 rounded-2xl shadow-sm border border-slate-200/80">
+                <div class="flex items-center justify-between mb-2.5 border-b border-slate-100 pb-2">
+                    <div class="flex items-center gap-2">
+                        <span class="w-6 h-6 rounded-full bg-brandTeal-700 text-white font-black text-xs flex items-center justify-center shadow-sm">4</span>
+                        <h2 class="font-heading text-xs sm:text-sm font-bold uppercase text-slate-900 tracking-wide">Room Ideas</h2>
+                    </div>
+                    <span class="text-[9px] text-amber-600 font-bold"><i class="fa-solid fa-bullseye"></i> Tap Hotspots</span>
+                </div>
+
+                <!-- Room Switcher Tabs -->
+                <div class="flex gap-1 mb-2.5 bg-slate-100 p-1 rounded-xl text-xs font-semibold">
+                    <button onclick="switchRoom('living')" id="btn-living" class="flex-1 py-1 rounded-lg bg-white shadow-sm text-slate-900 font-bold transition">Living Room</button>
+                    <button onclick="switchRoom('kitchen')" id="btn-kitchen" class="flex-1 py-1 rounded-lg text-slate-500 hover:text-slate-800 transition">Kitchen</button>
+                    <button onclick="switchRoom('bedroom')" id="btn-bedroom" class="flex-1 py-1 rounded-lg text-slate-500 hover:text-slate-800 transition">Bedroom</button>
+                </div>
+
+                <!-- Interactive Canvas -->
+                <div class="relative bg-slate-900 rounded-xl overflow-hidden aspect-[16/10] border border-slate-200 shadow-inner">
+                    
+                    <!-- Room 1: Living Room -->
+                    <div id="room-living" class="room-view absolute inset-0 bg-cover bg-center transition-opacity duration-300" style="background-image: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80');">
+                        <div class="absolute inset-0 bg-slate-950/20"></div>
+
+                        <!-- Hotspot 1 -->
+                        <div onclick="openHotspot('Cozy Sectional Sofa', 'Opt for stain-treated performance velvet with ergonomic comfort.', 'https://www.potterybarn.com/shop/furniture/sofas-sectionals/')" class="absolute top-[60%] left-[45%] cursor-pointer -translate-x-1/2 -translate-y-1/2">
+                            <span class="relative flex h-5 w-5">
+                              <span class="hotspot-ring absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                              <span class="relative inline-flex rounded-full h-5 w-5 bg-amber-500 text-slate-950 font-black text-[9px] items-center justify-center shadow-md">1</span>
+                            </span>
+                        </div>
+
+                        <!-- Hotspot 2 -->
+                        <div onclick="openHotspot('Brass Floor Lamp', 'Warm 2700K ambient illumination for reading nooks.', 'https://www.target.com/c/floor-lamps-lighting-home/-/N-5xttg')" class="absolute top-[35%] left-[80%] cursor-pointer -translate-x-1/2 -translate-y-1/2">
+                            <span class="relative flex h-5 w-5">
+                              <span class="hotspot-ring absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                              <span class="relative inline-flex rounded-full h-5 w-5 bg-amber-500 text-slate-950 font-black text-[9px] items-center justify-center shadow-md">2</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Room 2: Kitchen -->
+                    <div id="room-kitchen" class="room-view absolute inset-0 bg-cover bg-center hidden transition-opacity duration-300" style="background-image: url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80');">
+                        <div class="absolute inset-0 bg-slate-950/20"></div>
+
+                        <div onclick="openHotspot('Quartz Island Countertop', 'Waterproof quartz waterfall counters offer easy maintenance.', 'https://www.caesarstoneus.com/')" class="absolute top-[65%] left-[50%] cursor-pointer -translate-x-1/2 -translate-y-1/2">
+                            <span class="relative flex h-5 w-5">
+                              <span class="hotspot-ring absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                              <span class="relative inline-flex rounded-full h-5 w-5 bg-amber-500 text-slate-950 font-black text-[9px] items-center justify-center shadow-md">1</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Room 3: Bedroom -->
+                    <div id="room-bedroom" class="room-view absolute inset-0 bg-cover bg-center hidden transition-opacity duration-300" style="background-image: url('https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80');">
+                        <div class="absolute inset-0 bg-slate-950/20"></div>
+
+                        <div onclick="openHotspot('Tranquil Upholstered Bed', 'Paired with organic washed linen bedding for rest.', 'https://www.brooklinen.com/')" class="absolute top-[60%] left-[50%] cursor-pointer -translate-x-1/2 -translate-y-1/2">
+                            <span class="relative flex h-5 w-5">
+                              <span class="hotspot-ring absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                              <span class="relative inline-flex rounded-full h-5 w-5 bg-amber-500 text-slate-950 font-black text-[9px] items-center justify-center shadow-md">1</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Hotspot Detail Toast inside image canvas -->
+                    <div id="hotspotBox" class="absolute bottom-2 left-2 right-2 bg-slate-950/90 backdrop-blur-md p-2 rounded-xl border border-slate-700 text-white hidden flex items-center justify-between gap-2 shadow-2xl">
+                        <div class="pr-2">
+                            <h4 id="hotspotTitle" class="text-[10px] font-bold text-amber-400"></h4>
+                            <p id="hotspotDesc" class="text-[8px] text-slate-300 leading-tight"></p>
+                        </div>
+                        <a id="hotspotLink" href="#" target="_blank" rel="noopener noreferrer" class="bg-amber-400 hover:bg-amber-300 text-slate-950 text-[9px] font-bold px-2 py-1 rounded shrink-0 flex items-center gap-1 transition">
+                            <span>Shop</span> <i class="fa-solid fa-arrow-up-right-from-square text-[7px]"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. SECTION 5: TIPS FOR SUCCESS -->
+            <section class="bg-white p-3.5 rounded-2xl shadow-sm border border-slate-200/80">
+                <div class="flex items-center justify-between mb-2.5 border-b border-slate-100 pb-2">
+                    <div class="flex items-center gap-2">
+                        <span class="w-6 h-6 rounded-full bg-brandTeal-700 text-white font-black text-xs flex items-center justify-center shadow-sm">5</span>
+                        <h2 class="font-heading text-xs sm:text-sm font-bold uppercase text-slate-900 tracking-wide">Tips For Success</h2>
+                    </div>
+                    <span class="text-[9px] text-slate-400 font-medium">Design Rules</span>
+                </div>
+
+                <div class="grid grid-cols-2 gap-2">
+                    
+                    <div class="p-2 rounded-xl bg-slate-50 border border-slate-200/70 flex items-start gap-2">
+                        <i class="fa-solid fa-ruler-combined text-brandTeal-700 text-sm mt-0.5"></i>
+                        <div>
+                            <h3 class="text-[10px] font-bold text-slate-800">Plan Your Space</h3>
+                            <p class="text-[8px] text-slate-500 leading-tight">Keep 30-36 inch main walkway gaps.</p>
+                            <a href="https://roomstyler.com/" target="_blank" rel="noopener noreferrer" class="text-[8px] text-brandTeal-700 font-bold inline-block mt-0.5">3D Planner &rarr;</a>
+                        </div>
+                    </div>
+
+                    <div class="p-2 rounded-xl bg-slate-50 border border-slate-200/70 flex items-start gap-2">
+                        <i class="fa-solid fa-layer-group text-amber-600 text-sm mt-0.5"></i>
+                        <div>
+                            <h3 class="text-[10px] font-bold text-slate-800">Mix Textures</h3>
+                            <p class="text-[8px] text-slate-500 leading-tight">Combine bouclé, raw oak & brass.</p>
+                            <a href="https://www.apartmenttherapy.com/how-to-layer-texture-in-a-room-36725301" target="_blank" rel="noopener noreferrer" class="text-[8px] text-amber-600 font-bold inline-block mt-0.5">Texture Guide &rarr;</a>
+                        </div>
+                    </div>
+
+                    <div class="p-2 rounded-xl bg-slate-50 border border-slate-200/70 flex items-start gap-2">
+                        <i class="fa-solid fa-seedling text-emerald-600 text-sm mt-0.5"></i>
+                        <div>
+                            <h3 class="text-[10px] font-bold text-slate-800">Add Greenery</h3>
+                            <p class="text-[8px] text-slate-500 leading-tight">Air purifying indoor plants.</p>
+                            <a href="https://www.bloomscape.com/" target="_blank" rel="noopener noreferrer" class="text-[8px] text-emerald-600 font-bold inline-block mt-0.5">Plant Finder &rarr;</a>
+                        </div>
+                    </div>
+
+                    <div class="p-2 rounded-xl bg-slate-50 border border-slate-200/70 flex items-start gap-2">
+                        <i class="fa-solid fa-wand-magic text-rose-600 text-sm mt-0.5"></i>
+                        <div>
+                            <h3 class="text-[10px] font-bold text-slate-800">Personal Touch</h3>
+                            <p class="text-[8px] text-slate-500 leading-tight">Frame personal memories.</p>
+                            <a href="https://www.framebridge.com/" target="_blank" rel="noopener noreferrer" class="text-[8px] text-rose-600 font-bold inline-block mt-0.5">Framing &rarr;</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- 7. BOTTOM FOOTER BANNER (CLICKABLE WEBSITE LINK - NO QR CODE) -->
+            <footer class="mt-auto pt-1">
+                <a href="https://homeinteriordesigns.1code.ca" target="_blank" rel="noopener noreferrer" class="block group">
+                    <div class="bg-gradient-to-r from-brandTeal-900 via-slate-900 to-brandTeal-900 rounded-2xl p-3 text-center text-white shadow-xl border border-amber-400/30 transition-all duration-300 group-hover:scale-[1.01] relative overflow-hidden">
+                        
+                        <!-- Light Accent Glow -->
+                        <div class="absolute inset-0 bg-amber-400/5 group-hover:bg-amber-400/10 transition-colors"></div>
+
+                        <p class="text-[9px] font-black uppercase tracking-widest text-amber-300 mb-1 flex items-center justify-center gap-1.5">
+                            <i class="fa-solid fa-compass"></i> Visit For Inspiration
+                        </p>
+                        
+                        <div class="bg-slate-950/80 backdrop-blur-sm py-1.5 px-3 rounded-xl border border-amber-400/20 inline-flex items-center gap-2 max-w-full shadow-inner">
+                            <i class="fa-solid fa-globe text-amber-400 text-xs"></i>
+                            <span class="font-mono text-xs sm:text-sm font-bold tracking-wide text-white truncate">homeinteriordesigns.1code.ca</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[9px] text-amber-300"></i>
+                        </div>
+                    </div>
+                </a>
+            </footer>
+
+        </div>
+    </main>
+
+    <!-- TOAST NOTIFICATION -->
+    <div id="toast" class="fixed bottom-4 right-4 bg-slate-900 text-white border border-slate-700 px-3.5 py-2 rounded-xl text-xs font-semibold shadow-2xl flex items-center gap-2 translate-y-20 opacity-0 transition-all duration-300 z-50">
+        <i class="fa-solid fa-circle-check text-emerald-400"></i>
+        <span id="toastMsg">Color hex copied!</span>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        // Copy Color Hex Code to Clipboard
+        function copyHex(hex) {
+            const temp = document.createElement('input');
+            temp.value = hex;
+            document.body.appendChild(temp);
+            temp.select();
+            document.execCommand('copy');
+            document.body.removeChild(temp);
+            showToast(`Copied ${hex} to clipboard!`);
+        }
+
+        // Show Toast Feedback
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toastMsg');
+            toastMsg.innerText = msg;
+            toast.classList.remove('translate-y-20', 'opacity-0');
+            setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0');
+            }, 2200);
+        }
+
+        // Room Ideas Tab Switching
+        function switchRoom(room) {
+            document.querySelectorAll('.room-view').forEach(el => el.classList.add('hidden'));
+            document.getElementById(`room-${room}`).classList.remove('hidden');
+
+            document.querySelectorAll('[id^="btn-"]').forEach(btn => {
+                btn.className = "flex-1 py-1 rounded-lg text-slate-500 hover:text-slate-800 transition";
+            });
+            document.getElementById(`btn-${room}`).className = "flex-1 py-1 rounded-lg bg-white shadow-sm text-slate-900 font-bold transition";
+            
+            document.getElementById('hotspotBox').classList.add('hidden');
+        }
+
+        // Hotspot Info Display inside canvas
+        function openHotspot(title, desc, link) {
+            const box = document.getElementById('hotspotBox');
+            document.getElementById('hotspotTitle').innerText = title;
+            document.getElementById('hotspotDesc').innerText = desc;
+            document.getElementById('hotspotLink').href = link;
+            box.classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
